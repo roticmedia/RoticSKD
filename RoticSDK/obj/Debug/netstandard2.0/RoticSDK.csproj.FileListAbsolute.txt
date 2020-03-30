@@ -1,0 +1,12 @@
+E:\Projects\VisualStudioProjects\RoticSDK\RoticSDK\bin\Debug\netstandard2.0\RoticSDK.deps.json
+E:\Projects\VisualStudioProjects\RoticSDK\RoticSDK\bin\Debug\netstandard2.0\RoticSDK.dll
+E:\Projects\VisualStudioProjects\RoticSDK\RoticSDK\obj\Debug\netstandard2.0\RoticSDK.csprojAssemblyReference.cache
+E:\Projects\VisualStudioProjects\RoticSDK\RoticSDK\obj\Debug\netstandard2.0\RoticSDK.AssemblyInfoInputs.cache
+E:\Projects\VisualStudioProjects\RoticSDK\RoticSDK\obj\Debug\netstandard2.0\RoticSDK.AssemblyInfo.cs
+E:\Projects\VisualStudioProjects\RoticSDK\RoticSDK\bin\Debug\netstandard2.0\Requestor.dll
+E:\Projects\VisualStudioProjects\RoticSDK\RoticSDK\bin\Debug\netstandard2.0\Requestor.pdb
+E:\Projects\VisualStudioProjects\RoticSDK\RoticSDK\obj\Debug\netstandard2.0\RoticSDK.csproj.CopyComplete
+E:\Projects\VisualStudioProjects\RoticSDK\RoticSDK\bin\Debug\netstandard2.0\RoticSDK.pdb
+E:\Projects\VisualStudioProjects\RoticSDK\RoticSDK\obj\Debug\netstandard2.0\RoticSDK.csproj.CoreCompileInputs.cache
+E:\Projects\VisualStudioProjects\RoticSDK\RoticSDK\obj\Debug\netstandard2.0\RoticSDK.dll
+E:\Projects\VisualStudioProjects\RoticSDK\RoticSDK\obj\Debug\netstandard2.0\RoticSDK.pdb
