@@ -10,3 +10,15 @@ E:\Projects\VisualStudioProjects\RoticSDK\RoticSDK\obj\Release\netstandard2.0\Ro
 E:\Projects\VisualStudioProjects\RoticSDK\RoticSDK\obj\Release\netstandard2.0\RoticSDK.csproj.CopyComplete
 E:\Projects\VisualStudioProjects\RoticSDK\RoticSDK\obj\Release\netstandard2.0\RoticSDK.dll
 E:\Projects\VisualStudioProjects\RoticSDK\RoticSDK\obj\Release\netstandard2.0\RoticSDK.pdb
+C:\Projects\RoticSKD-DotNET\RoticSDK\bin\Release\netstandard2.0\RoticSDK.deps.json
+C:\Projects\RoticSKD-DotNET\RoticSDK\bin\Release\netstandard2.0\RoticSDK.dll
+C:\Projects\RoticSKD-DotNET\RoticSDK\bin\Release\netstandard2.0\RoticSDK.pdb
+C:\Projects\RoticSKD-DotNET\RoticSDK\bin\Release\netstandard2.0\Requestor.dll
+C:\Projects\RoticSKD-DotNET\RoticSDK\obj\Release\netstandard2.0\RoticSDK.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projects\RoticSKD-DotNET\RoticSDK\obj\Release\netstandard2.0\RoticSDK.AssemblyInfoInputs.cache
+C:\Projects\RoticSKD-DotNET\RoticSDK\obj\Release\netstandard2.0\RoticSDK.AssemblyInfo.cs
+C:\Projects\RoticSKD-DotNET\RoticSDK\obj\Release\netstandard2.0\RoticSDK.csproj.CoreCompileInputs.cache
+C:\Projects\RoticSKD-DotNET\RoticSDK\obj\Release\netstandard2.0\RoticSDK.csproj.CopyComplete
+C:\Projects\RoticSKD-DotNET\RoticSDK\obj\Release\netstandard2.0\RoticSDK.dll
+C:\Projects\RoticSKD-DotNET\RoticSDK\obj\Release\netstandard2.0\RoticSDK.pdb
+C:\Projects\RoticSKD-DotNET\RoticSDK\obj\Release\netstandard2.0\RoticSDK.csproj.AssemblyReference.cache

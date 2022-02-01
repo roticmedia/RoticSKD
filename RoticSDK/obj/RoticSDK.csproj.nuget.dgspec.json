@@ -1,24 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Projects\\VisualStudioProjects\\RoticSDK\\RoticSDK\\RoticSDK.csproj": {}
+    "C:\\Projects\\RoticSKD-DotNET\\RoticSDK\\RoticSDK.csproj": {}
   },
   "projects": {
-    "E:\\Projects\\VisualStudioProjects\\RoticSDK\\RoticSDK\\RoticSDK.csproj": {
-      "version": "1.0.1",
+    "C:\\Projects\\RoticSKD-DotNET\\RoticSDK\\RoticSDK.csproj": {
+      "version": "2.0.2",
       "restore": {
-        "projectUniqueName": "E:\\Projects\\VisualStudioProjects\\RoticSDK\\RoticSDK\\RoticSDK.csproj",
+        "projectUniqueName": "C:\\Projects\\RoticSKD-DotNET\\RoticSDK\\RoticSDK.csproj",
         "projectName": "RoticSDK",
-        "projectPath": "E:\\Projects\\VisualStudioProjects\\RoticSDK\\RoticSDK\\RoticSDK.csproj",
-        "packagesPath": "C:\\Users\\Milad Xandi\\.nuget\\packages\\",
-        "outputPath": "E:\\Projects\\VisualStudioProjects\\RoticSDK\\RoticSDK\\obj\\",
+        "projectPath": "C:\\Projects\\RoticSKD-DotNET\\RoticSDK\\RoticSDK.csproj",
+        "packagesPath": "C:\\Users\\Milad\\.nuget\\packages\\",
+        "outputPath": "C:\\Projects\\RoticSKD-DotNET\\RoticSDK\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "E:\\Microsoft\\Xamarin\\NuGet\\",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\Milad Xandi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Milad\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -31,6 +30,7 @@
         },
         "frameworks": {
           "netstandard2.0": {
+            "targetAlias": "netstandard2.0",
             "projectReferences": {}
           }
         },
@@ -42,13 +42,8 @@
       },
       "frameworks": {
         "netstandard2.0": {
+          "targetAlias": "netstandard2.0",
           "dependencies": {
-            "HttpRequestor": {
-              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[1.5.1, )"
-            },
             "NETStandard.Library": {
               "suppressParent": "All",
               "target": "Package",
@@ -57,7 +52,11 @@
             },
             "Newtonsoft.Json": {
               "target": "Package",
-              "version": "[12.0.3, )"
+              "version": "[13.0.1, )"
+            },
+            "RestSharp": {
+              "target": "Package",
+              "version": "[107.1.2, )"
             }
           },
           "imports": [
@@ -70,7 +69,7 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.200\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }
