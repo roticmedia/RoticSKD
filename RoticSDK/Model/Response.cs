@@ -33,4 +33,3 @@ public class RoticSDKModel
     public Options options { get; set; }
     public Error error { get; set; }
 }
-

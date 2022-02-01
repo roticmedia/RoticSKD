@@ -1,6 +1,5 @@
 ﻿using Newtonsoft.Json;
 using RoticSDK;
-using RoticSDK.Model;
 using System;
 using System.Linq;
 
@@ -9,77 +8,28 @@ namespace RoticSDK
     public class Connect
     {
 
-        private string token,api,ut,bName,bDescription,bDomain,bLogo;
+        private string UniqueToken,Token,Api;
 
-
-        public string BusinessName
+        public string Unique_Token
         {
             get
             {
-                return bName;
-            }
-        }
-        public string Description
-        {
-            get
-            {
-                return bDescription;
-            }
-        }
-        public string Domain
-        {
-            get
-            {
-                return bDomain;
-            }
-        }
-        public string Logo
-        {
-            get
-            {
-                return bLogo;
-            }
-        }
-        public string Token
-        {
-            get
-            {
-                return token;
+                return UniqueToken;
             }
             set
             {
-                token = value;
-            }
-        }
-        public string Api
-        {
-            get
-            {
-                return api;
-            }
-            set
-            {
-                api = value;
-            }
-        }
-        public string UniqueToken
-        {
-            get
-            {
-                return ut;
-            }
-            set
-            {
-                ut = value;
+                UniqueToken = value;
             }
         }
 
         private static Random random = new Random();
 
 
-        public Connect()
+        public Connect(string token, string api)
         {
-            ut = RandomString(20);
+            this.Token = token;
+            this.Api = api;
+            UniqueToken = RandomString(20);
         }
         private static string RandomString(int length)
         {
@@ -164,13 +114,23 @@ namespace RoticSDK
         {
             try
             {
+                if (Token!=null && Api !=null)
+                {
+                    RoticSDKModel response = Request.MakeRequestAsync(this.Token, this.Api, data, unique_token);
+                    return response;
+                }
+                else
+                {
+                    RoticSDKModel model = new RoticSDKModel();
+                    model.error.message = "Token or Api token did not valueted!";
+                    model.error.code = 207;
+                    model.provider.source = "Rotic .NET SDK";
+                    model.provider.website = "https://rotic.ir";
+                    model.response = null;
+                    model.status = 0;
 
-
-                RoticSDKModel response = Request.MakeRequestAsync(this.token, data);
-
-
-                return response;
-
+                    return model;
+                }
             }
             catch (Exception e)
             {

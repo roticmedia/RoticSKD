@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
@@ -10,11 +10,11 @@
     <Copyright>2020 All rights reserved for Rotic Intelligent Sulotions</Copyright>
     <PackageIcon>favicon.png</PackageIcon>
     <PackageProjectUrl>https://rotic.ir/developers</PackageProjectUrl>
-    <Version>2.0.2.0</Version>
+    <Version>2.0.5.0</Version>
     <PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
     <PackageIconUrl />
-    <AssemblyVersion>2.0.2.0</AssemblyVersion>
-    <FileVersion>2.0.2.0</FileVersion>
+    <AssemblyVersion>2.0.5.0</AssemblyVersion>
+    <FileVersion>2.0.5.0</FileVersion>
     <SignAssembly>true</SignAssembly>
     <AssemblyOriginatorKeyFile>Rotic.pfx</AssemblyOriginatorKeyFile>
     <PackageReleaseNotes>1. Minor Bugs fixed</PackageReleaseNotes>
@@ -42,9 +42,10 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Reference Include="Requestor">
-      <HintPath>..\..\Dlls\Requestor.dll</HintPath>
-    </Reference>
+    <None Update="README.md">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>README.Designer.cs</LastGenOutput>
+    </None>
   </ItemGroup>
 
 </Project>

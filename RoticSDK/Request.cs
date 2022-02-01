@@ -4,8 +4,6 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Net.Http;
 using Newtonsoft.Json;
-using Requestor;
-using RoticSDK.Model;
 using System.Linq;
 using RestSharp;
 
@@ -19,7 +17,6 @@ namespace RoticSDK
 
         public Request()
         {
-            ut = RandomString(5);
         }
         internal static string RandomString(int length)
         {
@@ -27,13 +24,15 @@ namespace RoticSDK
             return new string(Enumerable.Repeat(chars, length)
                 .Select(s => s[random.Next(s.Length)]).ToArray());
         }
-        internal static RoticSDKModel MakeRequestAsync(string token,string api, string data = null, string unique_token=null, string uri = null)
+        internal static RoticSDKModel MakeRequestAsync(string token, string api, string data = null, string unique_token=null, string uri = null)
         {
             try
             {
+                ut = RandomString(10);
+
                 string AiUri = "https://api.rotic.ir/v2/services/" + token + "/ai";
 
-                var client = new RestClient(uri);
+                var client = new RestClient(AiUri);
 
                 var request = new RestRequest()
                   .AddParameter("data", data)

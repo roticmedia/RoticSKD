@@ -586,7 +586,7 @@
     "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
-    "version": "2.0.2",
+    "version": "2.0.5",
     "restore": {
       "projectUniqueName": "C:\\Projects\\RoticSKD-DotNET\\RoticSDK\\RoticSDK.csproj",
       "projectName": "RoticSDK",
