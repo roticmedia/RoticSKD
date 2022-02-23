@@ -10,11 +10,11 @@
     <Copyright>2020 All rights reserved for Rotic Intelligent Sulotions</Copyright>
     <PackageIcon>favicon.png</PackageIcon>
     <PackageProjectUrl>https://rotic.ir/developers</PackageProjectUrl>
-    <Version>2.0.5.2</Version>
+    <Version>2.0.6.0</Version>
     <PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
     <PackageIconUrl />
-    <AssemblyVersion>2.0.5.2</AssemblyVersion>
-    <FileVersion>2.0.5.2</FileVersion>
+    <AssemblyVersion>2.0.6.0</AssemblyVersion>
+    <FileVersion>2.0.6.0</FileVersion>
     <SignAssembly>true</SignAssembly>
     <AssemblyOriginatorKeyFile>Rotic.pfx</AssemblyOriginatorKeyFile>
     <PackageReleaseNotes>1. Minor bugs fixed and completely migrated to version 2!

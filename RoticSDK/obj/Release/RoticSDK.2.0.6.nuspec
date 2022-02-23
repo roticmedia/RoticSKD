@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>RoticSDK</id>
+    <version>2.0.6</version>
+    <authors>Milad Xandi</authors>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <license type="file">LICENSE.txt</license>
+    <licenseUrl>https://aka.ms/deprecateLicenseUrl</licenseUrl>
+    <icon>favicon.png</icon>
+    <projectUrl>https://rotic.ir/developers</projectUrl>
+    <description>.NET SDK let you call Rotic Intelligent Solutions API</description>
+    <releaseNotes>1. Minor bugs fixed and completely migrated to version 2!
+
+2. Change class name</releaseNotes>
+    <copyright>2020 All rights reserved for Rotic Intelligent Sulotions</copyright>
+    <tags>Chatbot,Artificial Intelligence,AI,AI Chatbot,Persian</tags>
+    <repository type="library" url="https://github.com/roticmedia/RoticSKD-DotNET" />
+    <dependencies>
+      <group targetFramework=".NETStandard2.0">
+        <dependency id="Newtonsoft.Json" version="13.0.1" exclude="Build,Analyzers" />
+        <dependency id="RestSharp" version="107.1.2" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="C:\Projects\RoticSKD-DotNET\RoticSDK\bin\Release\netstandard2.0\RoticSDK.dll" target="lib\netstandard2.0\RoticSDK.dll" />
+    <file src="C:\Projects\RoticSKD-DotNET\RoticSDK\favicon.png" target="favicon.png" />
+    <file src="C:\Projects\RoticSKD-DotNET\RoticSDK\LICENSE.txt" target="LICENSE.txt" />
+  </files>
+</package>
