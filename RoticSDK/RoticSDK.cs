@@ -1,9 +1,9 @@
 ﻿using Newtonsoft.Json;
-using RoticSDK;
+using Rotic;
 using System;
 using System.Linq;
 
-namespace RoticSDK
+namespace Rotic
 {
     public class RoticSDK
     {

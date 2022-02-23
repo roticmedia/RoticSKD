@@ -10,18 +10,21 @@
     <Copyright>2020 All rights reserved for Rotic Intelligent Sulotions</Copyright>
     <PackageIcon>favicon.png</PackageIcon>
     <PackageProjectUrl>https://rotic.ir/developers</PackageProjectUrl>
-    <Version>2.0.5.1</Version>
+    <Version>2.0.5.2</Version>
     <PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
     <PackageIconUrl />
-    <AssemblyVersion>2.0.5.0</AssemblyVersion>
-    <FileVersion>2.0.5.0</FileVersion>
+    <AssemblyVersion>2.0.5.2</AssemblyVersion>
+    <FileVersion>2.0.5.2</FileVersion>
     <SignAssembly>true</SignAssembly>
     <AssemblyOriginatorKeyFile>Rotic.pfx</AssemblyOriginatorKeyFile>
-    <PackageReleaseNotes>1. Minor Bugs fixed</PackageReleaseNotes>
+    <PackageReleaseNotes>1. Minor bugs fixed and completely migrated to version 2!
+
+2. Change class name</PackageReleaseNotes>
     <RepositoryUrl>https://github.com/roticmedia/RoticSKD-DotNET</RepositoryUrl>
     <PackageTags>Chatbot,Artificial Intelligence,AI,AI Chatbot,Persian</PackageTags>
     <Description>.NET SDK let you call Rotic Intelligent Solutions API</Description>
     <NeutralLanguage>en-US</NeutralLanguage>
+    <RepositoryType>library</RepositoryType>
   </PropertyGroup>
 
   <ItemGroup>

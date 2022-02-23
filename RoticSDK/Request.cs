@@ -7,7 +7,7 @@ using Newtonsoft.Json;
 using System.Linq;
 using RestSharp;
 
-namespace RoticSDK
+namespace Rotic
 {
     internal class Request
     {
