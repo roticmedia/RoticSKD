@@ -22,13 +22,36 @@ namespace Rotic
             }
         }
 
+        public string token
+        {
+            get
+            {
+                return Token;
+            }
+            set
+            {
+                Token = value;
+            }
+        }
+
+        public string api
+        {
+            get
+            {
+                return Api;
+            }
+            set
+            {
+                Api = value;
+            }
+        }
+
+
         private static Random random = new Random();
 
 
-        public RoticSDK(string token, string api)
+        public RoticSDK()
         {
-            this.Token = token;
-            this.Api = api;
             UniqueToken = RandomString(20);
         }
         private static string RandomString(int length)
