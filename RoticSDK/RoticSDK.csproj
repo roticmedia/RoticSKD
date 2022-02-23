@@ -10,7 +10,7 @@
     <Copyright>2020 All rights reserved for Rotic Intelligent Sulotions</Copyright>
     <PackageIcon>favicon.png</PackageIcon>
     <PackageProjectUrl>https://rotic.ir/developers</PackageProjectUrl>
-    <Version>2.0.5.0</Version>
+    <Version>2.0.5.1</Version>
     <PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
     <PackageIconUrl />
     <AssemblyVersion>2.0.5.0</AssemblyVersion>
@@ -38,13 +38,6 @@
     <None Include="LICENSE.txt">
       <Pack>True</Pack>
       <PackagePath></PackagePath>
-    </None>
-  </ItemGroup>
-
-  <ItemGroup>
-    <None Update="README.md">
-      <Generator>MSDataSetGenerator</Generator>
-      <LastGenOutput>README.Designer.cs</LastGenOutput>
     </None>
   </ItemGroup>
 

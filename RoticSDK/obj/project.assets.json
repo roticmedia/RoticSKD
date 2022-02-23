@@ -586,7 +586,7 @@
     "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
-    "version": "2.0.5",
+    "version": "2.0.5.1",
     "restore": {
       "projectUniqueName": "C:\\Projects\\RoticSKD-DotNET\\RoticSDK\\RoticSDK.csproj",
       "projectName": "RoticSDK",
@@ -607,7 +607,8 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "https://api.nuget.org/v3/index.json": {}
+        "https://api.nuget.org/v3/index.json": {},
+        "https://nuget.pkg.github.com/roticmedia/index.json": {}
       },
       "frameworks": {
         "netstandard2.0": {

@@ -5,7 +5,7 @@ using System.Linq;
 
 namespace RoticSDK
 {
-    public class Connect
+    public class RoticSDK
     {
 
         private string UniqueToken,Token,Api;
@@ -25,7 +25,7 @@ namespace RoticSDK
         private static Random random = new Random();
 
 
-        public Connect(string token, string api)
+        public RoticSDK(string token, string api)
         {
             this.Token = token;
             this.Api = api;

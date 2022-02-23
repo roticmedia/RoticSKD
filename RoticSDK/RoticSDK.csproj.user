@@ -3,9 +3,4 @@
   <PropertyGroup>
     <_LastSelectedProfileId>C:\Projects\RoticSKD-DotNET\RoticSDK\Properties\PublishProfiles\FolderProfile1.pubxml</_LastSelectedProfileId>
   </PropertyGroup>
-  <ItemGroup>
-    <None Update="README.md">
-      <SubType>Designer</SubType>
-    </None>
-  </ItemGroup>
 </Project>

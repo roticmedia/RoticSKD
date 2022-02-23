@@ -16,7 +16,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCopyrightAttribute("2020 All rights reserved for Rotic Intelligent Sulotions")]
 [assembly: System.Reflection.AssemblyDescriptionAttribute(".NET SDK let you call Rotic Intelligent Solutions API")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("2.0.5.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("2.0.5.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("2.0.5.1")]
 [assembly: System.Reflection.AssemblyProductAttribute("Rotic .NET SDK")]
 [assembly: System.Reflection.AssemblyTitleAttribute("RoticSDK")]
 [assembly: System.Reflection.AssemblyVersionAttribute("2.0.5.0")]
