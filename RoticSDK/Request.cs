@@ -55,7 +55,7 @@ namespace Rotic
                 model.provider.source = "Rotic .NET SDK";
                 model.provider.website = "https://rotic.ir";
                 model.response = null;
-                model.status = 0;
+                model.status = false;
 
                 return model;
             }

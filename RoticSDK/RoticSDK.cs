@@ -52,13 +52,6 @@ namespace Rotic
 
         public RoticSDK()
         {
-            UniqueToken = RandomString(20);
-        }
-        private static string RandomString(int length)
-        {
-            const string chars = "abcdefghijklmnopqrstuvwxyz0123456789";
-            return new string(Enumerable.Repeat(chars, length)
-                .Select(s => s[random.Next(s.Length)]).ToArray());
         }
 
         //public RoticSDKInitModel init(string unique_token=null)
@@ -150,7 +143,7 @@ namespace Rotic
                     model.provider.source = "Rotic .NET SDK";
                     model.provider.website = "https://rotic.ir";
                     model.response = null;
-                    model.status = 0;
+                    model.status = false;
 
                     return model;
                 }
@@ -166,7 +159,7 @@ namespace Rotic
                 model.provider.source = "Rotic .NET SDK";
                 model.provider.website = "https://rotic.ir";
                 model.response = null;
-                model.status = 0;
+                model.status = false;
 
                 return model;
 
